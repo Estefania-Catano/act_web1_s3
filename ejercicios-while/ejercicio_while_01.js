@@ -1,3 +1,9 @@
-// Ejercicio While 1: Contador de Números
-// Crea un programa que use un ciclo while para contar del 1 al 50, 
-// pero que solo muestre los números divisibles por 3 y 5.
+// Crea un programa que use un ciclo while para mostrar una cuenta regresiva desde 20 hasta 1, 
+// mostrando cada número en la consola.Al final debe mostrar "¡Despegue!".
+let contador = 20;
+
+while (contador <= 20 && contador > 0) {
+console.log(contador);
+contador--;
+}
+console.log("¡Despegue!");
