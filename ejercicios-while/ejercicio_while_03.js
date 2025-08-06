@@ -5,8 +5,8 @@
 let password = "";
 let intentos = 0;
 
-while (password !== "admin123" ) {
-   password = prompt("Ingresa la contraseña:");
+while (password !== "admin123") {
+    password = prompt("Ingresa la contraseña:");
     intentos++;
 
     if (password !== "admin123") {
@@ -14,8 +14,5 @@ while (password !== "admin123" ) {
     }
 }
 
-if (password === "admin123") {
-    console.log("¡Acceso concedido!");
-} else {
-    console.log("Acceso denegado. Máximo de intentos alcanzado.");
-}
+console.log("¡Acceso concedido!");
+console.log(`Intentos fallidos: ${intentos - 1}`);
